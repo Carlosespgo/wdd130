@@ -37,6 +37,12 @@ header nav a {
     background-position: center;
 }
 
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
 .hero h1 {
     position: absolute;
     top: 20%;
