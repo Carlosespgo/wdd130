@@ -28,46 +28,47 @@ header nav a {
     text-decoration: none;
 }
 
-div {
-    text-align: center;
+.hero {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    background-image: url("rafting-back.webp");
+    background-size: cover;
+    background-position: center;
 }
 
-.raftimg {
-    display: block;
-    width: 103%;
+.hero h1 {
+    position: absolute;
+    top: 20%;
+    background-color: var(--accent1-color);
+    color: var(--secondary-color);
+    font-size: 3rem;
+    text-align: center;
+    z-index: 1;
+    width: 100%;
+}
+
+.hero article {
+    position: absolute;
+    bottom: 0;
+    left: 10%;
+    right: 10%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: var(--secondary-color);
+    padding: 20px;
+    z-index: 1;
+}
+
+.hero article img {
+    float: right;
+    margin-left: 20px;
+    max-width: 50%;
     height: auto;
 }
 
-.title {
-    position: absolute;
-    top: 320px;
-    padding: 30px;
-    width: 100%;
-    font-size:50px;
-    background-color: #3E7CB1;
-    opacity: 85%;
-    color:#fff
-}
-
-article {
-    right: 160px;
-    background-color: #054a91;
-    opacity: 80%;
-    padding: 30px;
-    position:absolute;
-    top: 600px;
-    width: 1000px;
-}
-
-article img {
-    width: 300px;
-    float:right;
-}
-
-article p {
-    color: #fff;
-    text-align: left;
-    font-size: 20px;
+.hero article p {
+    text-align: justify;
+    line-height: 1.6;
 }
 
 h1, h2 {
